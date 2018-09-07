@@ -1,0 +1,44 @@
+.image-container{
+	opacity : 0.5;
+
+}
+
+.rewardbox{
+	position : absolute;
+	width : 75%;
+	top : 5%;
+	left : 12.5%;
+	right : 12.5%;
+	background-color : white;
+	border-radius : 5px;
+	text-align : center;
+	font-size : 15px;
+	z-index : 2;
+	font-weight: bold;
+}
+
+.rewardbox strong{
+	font-weight : normal;
+	color : orange;
+	font-size : 15px;
+}
+
+.image-container:hover{
+	opacity : 1;
+}
+
+.image-container:hover .rewardbox{
+	display : none;
+}
+
+@media  (max-width : 990px){
+	.jumbotronimage {
+		display : none;
+	}
+	.imageabout{
+		display:none;
+	}
+	.blockquote-footer{
+		text-align :right;
+	}
+}
