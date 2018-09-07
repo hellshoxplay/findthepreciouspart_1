@@ -41,4 +41,11 @@
 	.blockquote-footer{
 		text-align :right;
 	}
+
+}
+
+@media (max-width : 588px) {
+		.reduc{
+		display : none;
+	}
 }
